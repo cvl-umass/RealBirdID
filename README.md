@@ -1,6 +1,6 @@
-# RealBirdID
+# RealBirdID <a href="https://arxiv.org/abs/2603.27033">[arXiv]</a> <a href="https://huggingface.co/datasets/cvl-umass/RealBirdID">[HuggingFace]</a> 
 
-This is the code-base for the visual abstention benchmark proposed in 
+This is the supporting code for the visual abstention benchmark, RealBirdID (hosted in <a href="https://arxiv.org/abs/2401.02460">[HuggingFace]</a>). It was proposed in:
 
 ### RealBirdID: Benchmarking Bird Species Identification in the Era of MLLMs
 
@@ -8,4 +8,6 @@ This is the code-base for the visual abstention benchmark proposed in
 
 [Computer Vision Lab @ UMass](https://www.cics.umass.edu/organizations/computer-vision-research-lab)
 
-CVPR'26
+CVPR'26 
+
+![realbirdid_preview](assets/github_preview.jpg)
