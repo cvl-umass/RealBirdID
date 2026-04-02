@@ -12,8 +12,12 @@ CVPR'26
 
 ![realbirdid_preview](assets/github_preview.jpg)
 
+## Getting Started
+
+We highly recommend running [quickstart_ipynbs/view_random_example.ipynb](https://github.com/cvl-umass/RealBirdID/blob/quickstart_ipynbs/view_random_example.ipynb) to confirm you can load the data and get a sense of what it looks like. If you can run this, you're basically good to go!
+
 ## Citation
-If you find our work useful, please consider citing:
+If you find this work useful, please consider citing:
 
 ```
 @inproceedings{lawrence2026realbirdid,
