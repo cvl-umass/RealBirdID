@@ -1,6 +1,6 @@
 # RealBirdID <a href="https://arxiv.org/abs/2603.27033">[arXiv]</a> <a href="https://huggingface.co/datasets/cvl-umass/RealBirdID">[HuggingFace]</a> 
 
-This is the supporting code for the visual abstention benchmark, RealBirdID (hosted in <a href="https://arxiv.org/abs/2401.02460">[HuggingFace]</a>). It was proposed in:
+This is the supporting code for the visual abstention benchmark, RealBirdID (hosted in <a href="https://huggingface.co/datasets/cvl-umass/RealBirdID">[HuggingFace]</a>). It was proposed in:
 
 ### RealBirdID: Benchmarking Bird Species Identification in the Era of MLLMs
 
@@ -14,7 +14,7 @@ CVPR'26
 
 ## Getting Started
 
-We highly recommend running [quickstart_ipynbs/view_random_example.ipynb](https://github.com/cvl-umass/RealBirdID/blob/quickstart_ipynbs/view_random_example.ipynb) to confirm you can load the data and get a sense of what it looks like. If you can run this, you're basically good to go!
+We highly recommend running [quickstart_ipynbs/view_random_example.ipynb](https://github.com/cvl-umass/RealBirdID/blob/main/quickstart_ipynbs/view_random_example.ipynb) to confirm you can load the data and get a sense of what it looks like. If you can run this, you're basically good to go!
 
 ## Citation
 If you find this work useful, please consider citing:
