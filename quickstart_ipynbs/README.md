@@ -31,6 +31,7 @@ with the same Outlines constrained-decoding backend. For the large species list,
 `choice_regex.py` shares label prefixes in the regex instead of building a flat
 alternation. It accepts exactly the same labels. It uses the full released
 `taxonomy.json` species vocabulary, not the labels in the evaluation sample.
+Constructing this full-vocabulary decoder can take several minutes on CPU.
 The release uses `List` feature metadata and needs `datasets>=4`. Select a PyTorch
 build that supports your GPU architecture. The notebook checks CUDA execution
 before loading weights and uses FP16 when native BF16 is unavailable.
