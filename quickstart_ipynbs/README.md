@@ -27,7 +27,9 @@ python -m pip install jupyterlab torch torchvision accelerate==1.6.0 pillow pand
 
 nlg2choice is example code, not a PyPI package. The notebook adapts its public
 [text extraction example](https://github.com/Racerx250/nlg2choice/blob/main/tasks/260720_1_model_examples/example_saved_nlg2choice.ipynb)
-with the same Outlines constrained-decoding API. It uses the full released
+with the same Outlines constrained-decoding backend. For the large species list,
+`choice_regex.py` shares label prefixes in the regex instead of building a flat
+alternation. It accepts exactly the same labels. It uses the full released
 `taxonomy.json` species vocabulary, not the labels in the evaluation sample.
 The release uses `List` feature metadata and needs `datasets>=4`. Select a PyTorch
 build that supports your GPU architecture. The notebook checks CUDA execution
