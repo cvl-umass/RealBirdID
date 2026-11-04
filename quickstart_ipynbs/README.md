@@ -22,13 +22,16 @@ For the MLLM notebook, install the versions used by the
 
 ```bash
 python -m pip install jupyterlab torch torchvision accelerate pillow pandas sentencepiece \
-  transformers==4.51.3 outlines==0.1.14 datasets==3.6.0 huggingface-hub==0.36.0
+  transformers==4.51.3 outlines==0.1.14 datasets==4.0.0 huggingface-hub==0.36.0
 ```
 
 nlg2choice is example code, not a PyPI package. The notebook adapts its public
 [text extraction example](https://github.com/Racerx250/nlg2choice/blob/main/tasks/260720_1_model_examples/example_saved_nlg2choice.ipynb)
 with the same Outlines constrained-decoding API. It uses the full released
 `taxonomy.json` species vocabulary, not the labels in the evaluation sample.
+The release uses `List` feature metadata and needs `datasets>=4`. Select a PyTorch
+build that supports your GPU architecture. The notebook checks CUDA execution
+before loading weights and uses FP16 when native BF16 is unavailable.
 The model loads on one GPU without CPU offload; use a GPU with at least 12 GB
 VRAM. Set `HF_HOME` to a cache/data drive before starting Jupyter. On a cluster,
 run model inference in a GPU allocation.
