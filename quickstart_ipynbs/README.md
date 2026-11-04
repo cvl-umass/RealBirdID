@@ -21,7 +21,7 @@ For the MLLM notebook, install the versions used by the
 [nlg2choice examples](https://github.com/Racerx250/nlg2choice/tree/main/tasks/260720_1_model_examples):
 
 ```bash
-python -m pip install jupyterlab torch torchvision accelerate pillow pandas sentencepiece \
+python -m pip install jupyterlab torch torchvision accelerate==1.6.0 pillow pandas sentencepiece \
   transformers==4.51.3 outlines==0.1.14 datasets==4.0.0 huggingface-hub==0.36.0
 ```
 
