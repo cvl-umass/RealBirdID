@@ -37,6 +37,11 @@ Install `datasets`, `pillow`, `ipython`, and `jupyterlab` to run the notebooks.
 - [Load data](quickstart_ipynbs/load_data.ipynb): inspect the schema and per-row licenses.
 - [Browse examples](quickstart_ipynbs/view_random_example.ipynb): view images with attribution.
 - [Baseline evaluation](quickstart_ipynbs/baseline_eval.ipynb): compare uniform species guessing with always abstaining.
+- [Species and license visualization](quickstart_ipynbs/browse_species_and_licenses.ipynb): filter images by taxon and compare label and license counts.
+- [Text abstention](quickstart_ipynbs/measure_text_abstention.ipynb): apply the evaluation rule and check metric denominators on CPU.
+- [Qwen to nlg2choice](quickstart_ipynbs/qwen_nlg2choice_ground_truth.ipynb): generate free text, extract a species, and compare with ground truth on one GPU.
+
+See [example setup and metric definitions](quickstart_ipynbs/README.md) for the extra dependencies and the limits of the small-sample evaluation.
 
 RealBirdID is an evaluation benchmark. It has answerable and unanswerable validation sets, with no training split. The release includes 35,138 rows. Of these, 457 unanswerable rows have no recorded CC photo license and are labeled `all-rights-reserved` or `unknown`; inclusion does not grant reuse or redistribution rights. Those rows are stored in separate restricted shards and can be filtered by the per-row `license` column. The original null code is preserved in `source_license_code`.
 
